@@ -7,20 +7,20 @@ from pyrogram import filters
 
 load_dotenv()
 
-#COOKIE_URL = "https://batbin.me/chronocrator"
-
 # Get this value from my.telegram.org/apps
 API_ID = int(getenv("API_ID", None))
 API_HASH = getenv("API_HASH", None)
 
-#COOKIE_URL = getenv("https://batbin.me/difluence")
-
-API_URL = getenv("API_URL", "https://api.thequickearn.xyz")
-API_KEY = getenv("API_KEY", "30DxNexGenBotsfcfad8")
-VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", None)
+
+STICKER_ID = "CAACAgUAAxkBAAEObxloHODEbJMRLG0DgnPYJ7bOUXc5QwACmRkAAg6V6FSBJlu8dUgdCTYE"
+
+#COOKIE_URL = getenv("https://batbin.me/minahassian")
+
+API_URL = getenv("API_URL", "http://deadlinetech.site")
+API_KEY = getenv("API_KEY", "Rf1qda5gyCITj6VbrekzRxmR")
+
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -43,21 +43,22 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/nan20psp/maythusharmusic",
+    "https://github.com/zenaku17psp/maythusharmusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL_LINK = getenv("SUPPORT_CHANNEL_LINK", "@sasukevipmusicbotsupport")
-SUPPORT_CHAT_LINK = getenv("SUPPORT_CHAT_LINK", "@sasukemusicsupportchat")
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/sasukevipmusicbotsupport")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/sasukemusicsupportchat")
+SUPPORT_CHANNEL_LINK = getenv("SUPPORT_CHANNEL_LINK", "@JBmusic_myanmar")
+SUPPORT_CHAT_LINK = getenv("SUPPORT_CHAT_LINK", "@JBmusic_myanmar2002")
+
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/JBmusic_myanmar")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/JBmusic_myanmar2002")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 # Auto Gcast/Broadcast Handler (True = broadcast on , False = broadcast off During Hosting, Dont Do anything here.)
 AUTO_GCAST = os.getenv("AUTO_GCAST")
@@ -100,22 +101,22 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/2uahrk.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/0gdu2w.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/2uahrk.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/0gdu2w.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/2uahrk.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/2uahrk.jpg"
-JOIN_IMG_URL = "https://files.catbox.moe/2uahrk.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/2uahrk.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/2uahrk.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/2uahrk.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/2uahrk.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/2uahrk.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/2uahrk.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/2uahrk.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/2uahrk.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/0gdu2w.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/0gdu2w.jpg"
+JOIN_IMG_URL = "https://files.catbox.moe/61mg5q.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/0gdu2w.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/0gdu2w.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/tyeotp.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/tyeotp.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/0gdu2w.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/tyeotp.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/tyeotp.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/tyeotp.jpg"
 
 
 def time_to_seconds(time):
